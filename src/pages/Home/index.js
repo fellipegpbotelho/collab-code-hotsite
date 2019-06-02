@@ -1,7 +1,7 @@
 import React from "react";
 
-import TitleCollab from "../../objects/TitleCollab";
+import TitleDoFrontAoEnd from "../../components/TitleDoFrontAoEnd";
 
 export default function Home() {
-  return <TitleCollab>do Front ao End</TitleCollab>;
+  return <TitleDoFrontAoEnd />;
 }
