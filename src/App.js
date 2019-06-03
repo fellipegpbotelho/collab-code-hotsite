@@ -7,11 +7,10 @@ import Reset from "./styles/generic/reset";
 import Colors from "./styles/settings/colors";
 import Spacing from "./styles/settings/spacing";
 
-function App() {
+export default function App() {
   return (
     <Fragment>
       <Home />
-
       <Base />
       <Reset />
       <Colors />
@@ -19,5 +18,3 @@ function App() {
     </Fragment>
   );
 }
-
-export default App;
